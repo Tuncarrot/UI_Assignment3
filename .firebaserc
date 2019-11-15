@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "yeetboi-ui-a3": {
+      "hosting": {
+        "ui-a3": [
+          "yeetboi-ui-a3"
+        ]
+      }
+    }
+  }
+}

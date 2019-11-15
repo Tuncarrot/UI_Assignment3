@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "ui-a3",
+      "public": "dist/ui-a3",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
