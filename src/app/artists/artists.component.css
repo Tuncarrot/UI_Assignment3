@@ -3,6 +3,10 @@
     font-size: 20px;
 }
 
+html, body {
+    background-color:white;
+}
+
 .artist_icon {
     border-radius: 50%;
     width: 40px;
@@ -17,4 +21,220 @@
 .plus_size {
     font-size: 30px;
     margin-top: 15px;
+}
+
+.card_content_adjust {
+    margin-top:7px;
+}
+
+.black {
+    color:black;
+  }
+
+.twitter{
+    color: blue;
+}
+
+.facebook {
+    color:blue;
+}
+
+.instagram {
+    color:black;
+}
+
+.spotify {
+    color:limegreen;
+}
+
+.apple {
+    color:silver;
+}
+
+.snapchat {
+    color: yellow;
+}
+
+.circle-link {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 1s ease-out;
+  }
+
+  .circle-link:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+  }
+
+  
+  .sidenav {
+    width: 200px;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 90px;
+    background: #1976d2;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+      
+  .sidenav a:hover {
+    color: #064579;
+  }
+
+  .media_control_size {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 20px;
+  }
+
+  .media_image {
+    margin-left:17.5px;
+    width: 160px;
+    height: 160px;
+  }
+  
+.Equalcontainer {
+  width: 200px;
+  height: 500px;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  top:380px;
+  transform: rotate(180deg) scaleX(-1);
+}
+.bar {
+    background-color:#1976d2;
+    width: 20px;
+    height: 300px;
+}
+.bar:nth-child(1) {
+    animation: bnce .7s .1s infinite alternate;
+}
+@keyframes bnce {
+    30%{
+      height: 30px;
+    }
+    60% {
+       height: 50px;
+    }
+    100% {
+        height: 20px;
+    }
+}
+.bar:nth-child(2) {
+    animation: bnce2 .5s .5s infinite alternate;   
+}
+@keyframes bnce2 {
+    20%{
+      height: 50px;
+      
+    }
+    40% {
+        height: 30px;
+    }
+    100% {
+        height: 60px;
+    }
+}
+.bar:nth-child(3) {
+    animation: bnce3 .8s .3s infinite alternate;   
+}
+@keyframes bnce3 {
+    80%{
+      height: 70px;
+    }
+    100% {
+    }
+}
+.bar:nth-child(4) {
+    animation: bnce4 .6s .7s infinite alternate;   
+}
+@keyframes bnce4 {
+    70% {
+      height: 45px; 
+    }
+    100% {
+    }
+}
+.bar:nth-child(5) {
+    animation: bnce5 .5s .2s infinite alternate;   
+}
+@keyframes bnce5 {
+    60%{
+      height: 20px;
+    }
+    100% {
+    }
+}
+.bar:nth-child(6) {
+  animation: bnce5 .4s .1s infinite alternate;   
+}
+@keyframes bnce5 {
+  60%{
+    height: 20px;
+  }
+  100% {
+  }
+}
+.bar:nth-child(7) {
+animation: bnce2 .2s .6s infinite alternate;   
+}
+@keyframes bnce2 {
+20%{
+  height: 50px;
+  
+}
+40% {
+    height: 30px;
+}
+100% {
+    height: 60px;
+}
+}
+.bar:nth-child(8) {
+animation: bnce3 .8s .3s infinite alternate;   
+}
+@keyframes bnce3 {
+80%{
+  height: 70px;
+}
+100% {
+}
+}
+.bar:nth-child(9) {
+animation: bnce4 .5s .5s infinite alternate;   
+}
+@keyframes bnce2 {
+20%{
+  height: 50px;
+  
+}
+40% {
+    height: 30px;
+}
+100% {
+    height: 60px;
+}
+}
+.bar:nth-child(10) {
+animation: bnce5 .5s .8s infinite alternate;   
+}
+@keyframes bnce5 {
+60%{
+  height: 20px;
+}
+100% {
+  height: 50px;
+}
 }

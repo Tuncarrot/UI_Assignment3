@@ -92,7 +92,6 @@
   }
 
   .card.highlight-card {
-    background-color: #1976d2;
     color: white;
     font-weight: 600;
     border: none;
@@ -253,32 +252,6 @@
     }
   }
 
-
-  .twitter{
-      color: blue;
-  }
-
-  .facebook {
-      color:blue;
-  }
-
-  .instagram {
-      color:black;
-  }
-
-  .spotify {
-      color:limegreen;
-  }
-
-  .apple {
-      color:silver;
-  }
-
-  .snapchat {
-      color: yellow;
-  }
-
-
   body,html{
     height: 100%;
     width: 100%;
@@ -291,7 +264,7 @@
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
-    background-color: #353b48;
+    background-color: black;
     border-radius: 30px;
     padding: 10px;
     }
@@ -337,8 +310,8 @@
     }
 
     .center_logo {
-    
-        margin-left: 80px;
+        margin-left:3px;
+        margin-right:3px;
         font-size: 60px;
         color:black;
     }
@@ -356,165 +329,19 @@
         margin-left: 30px;
     }
 
-    .sidenav {
-      width: 200px;
-      height: 300px;
-      position: fixed;
-      z-index: 1;
-      top: 90px;
-      background: #1976d2;
-      overflow-x: hidden;
-      padding: 8px 0;
-    }
-        
-    .sidenav a:hover {
-      color: #064579;
-    }
 
-    .media_control_size {
-      margin-top: 20px;
-      font-size: 40px;
-      margin-left: 20px;
-    }
+.adjust_title {
+  z-index: 5;
+}
 
-    .media_image {
-      margin-left:17.5px;
-      width: 160px;
-      height: 160px;
-    }
-    
-  .Equalcontainer {
-    width: 200px;
-    height: 500px;
-    position: fixed;
-    z-index: 2;
-    display: flex;
-    align-items: flex-end;
-    top:380px;
-    transform: rotate(180deg) scaleX(-1);
-  }
-  .bar {
-      background-color:#1976d2;
-      width: 20px;
-      height: 300px;
-  }
-  .bar:nth-child(1) {
-      animation: bnce .7s .1s infinite alternate;
-  }
-  @keyframes bnce {
-      30%{
-        height: 30px;
-      }
-      60% {
-         height: 50px;
-      }
-      100% {
-          height: 20px;
-      }
-  }
-  .bar:nth-child(2) {
-      animation: bnce2 .5s .5s infinite alternate;   
-  }
-  @keyframes bnce2 {
-      20%{
-        height: 50px;
-        
-      }
-      40% {
-          height: 30px;
-      }
-      100% {
-          height: 60px;
-      }
-  }
-  .bar:nth-child(3) {
-      animation: bnce3 .8s .3s infinite alternate;   
-  }
-  @keyframes bnce3 {
-      80%{
-        height: 70px;
-      }
-      100% {
-      }
-  }
-  .bar:nth-child(4) {
-      animation: bnce4 .6s .7s infinite alternate;   
-  }
-  @keyframes bnce4 {
-      70% {
-        height: 45px; 
-      }
-      100% {
-      }
-  }
-  .bar:nth-child(5) {
-      animation: bnce5 .5s .2s infinite alternate;   
-  }
-  @keyframes bnce5 {
-      60%{
-        height: 20px;
-      }
-      100% {
-      }
-  }
-  .bar:nth-child(6) {
-    animation: bnce5 .4s .1s infinite alternate;   
+.black {
+  color:black;
 }
-@keyframes bnce5 {
-    60%{
-      height: 20px;
-    }
-    100% {
-    }
+
+.white {
+  color:white;
 }
-.bar:nth-child(7) {
-  animation: bnce2 .2s .6s infinite alternate;   
-}
-@keyframes bnce2 {
-  20%{
-    height: 50px;
-    
-  }
-  40% {
-      height: 30px;
-  }
-  100% {
-      height: 60px;
-  }
-}
-.bar:nth-child(8) {
-  animation: bnce3 .8s .3s infinite alternate;   
-}
-@keyframes bnce3 {
-  80%{
-    height: 70px;
-  }
-  100% {
-  }
-}
-.bar:nth-child(9) {
-  animation: bnce4 .5s .5s infinite alternate;   
-}
-@keyframes bnce2 {
-  20%{
-    height: 50px;
-    
-  }
-  40% {
-      height: 30px;
-  }
-  100% {
-      height: 60px;
-  }
-}
-.bar:nth-child(10) {
-  animation: bnce5 .5s .8s infinite alternate;   
-}
-@keyframes bnce5 {
-  60%{
-    height: 20px;
-  }
-  100% {
-    height: 50px;
-  }
+
+.shift_title{
+  margin-left: 20px;
 }
