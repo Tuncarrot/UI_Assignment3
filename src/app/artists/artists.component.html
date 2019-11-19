@@ -217,6 +217,11 @@
           <div class="column">
               <i class="fas fa-forward media_control_size black"></i>
           </div>
+          <div class="row">
+              <button type="button" class="btn btn-light adjustBtn" data-toggle="modal" data-target="#exampleModal">
+                  Shout Music<i class="fas fa-bullhorn shout_icon_spacing"></i>
+                </button>
+            </div>
         </div>
       </div>
 </div>
@@ -234,4 +239,77 @@
         <div class="bar"></div>
         <div class="bar"></div>
       </div>
+</div>
+
+  
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Shout Music</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col">
+                        <img class="media_image rounded border border-dark" src="../assets/Images/1_1Imag.jpg" alt="Card image cap">
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <h5>Song Title</h5>
+                        </div>
+                        <div class="row">
+                            <h6>Artist</h6>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                            <a title="Twitter" href="https://twitter.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-twitter twitter"></i>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a title="Facbeook" href="https://www.facebook.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-facebook-f facebook"></i>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a title="Instagram" href="https://www.instagram.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-instagram instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a title="Snapchat" href="https://www.snapchat.com/" target="_blank" rel="noopener">
+                                <i class="fab fa-snapchat snapchat"></i>
+                            </a>
+                        </div>
+                        </div>
+                  
+                        <div class="row">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">Message</span>
+                                </div>
+                                <input type="text" class="form-control field_adjust" placeholder="Enter here" aria-label="Message" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">Friends</span>
+                                </div>
+                                <input type="text" class="form-control field_adjust" placeholder="@friend" aria-label="Tag Friends" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Shout!</button>
+        </div>
+    </div>
 </div>

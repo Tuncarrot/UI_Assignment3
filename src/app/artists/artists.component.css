@@ -78,7 +78,7 @@ html, body {
   
   .sidenav {
     width: 200px;
-    height: 300px;
+    height: 350px;
     position: fixed;
     z-index: 1;
     top: 90px;
@@ -110,7 +110,7 @@ html, body {
   z-index: 2;
   display: flex;
   align-items: flex-end;
-  top:380px;
+  top:420px;
   transform: rotate(180deg) scaleX(-1);
 }
 .bar {
@@ -237,4 +237,28 @@ animation: bnce5 .5s .8s infinite alternate;
 100% {
   height: 50px;
 }
+}
+
+.adjustBtn {
+    margin-top:15px;
+    margin-left: 45px;
+}
+
+.shout_icon_spacing {
+    margin-left:5px;
+}
+
+.icon_adjust {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+.bar_adjust{
+    margin-top:10px;
+}
+
+.field_adjust {
+    margin-right: 20px;
 }
